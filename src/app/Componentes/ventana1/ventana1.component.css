@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ingreso h1{
+color: azure;
+text-align: center;
+}
+.ingreso input{
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 180px;
+}
+.ingreso{
+    box-shadow: 2px 2px 2px 1px rgba(0.2, 0.2, 0.2, 0.2);
+    width: 220px; 
+ height: 270px;
+ margin-left: 500px;
+ margin-top: 220px;
+ background-color: rgb(73, 119, 204);
+}
+.navegar{
+    background-color: rgb(105, 154, 167);
+    margin-left: 60px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    margin-top: 15px;
+color: white;
+font-family: 'Courier New', Courier, monospace;
+cursor: pointer;
+}
+.navegar:hover{
+   filter: invert(100%);
+}
